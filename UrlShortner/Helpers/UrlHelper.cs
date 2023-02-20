@@ -24,11 +24,8 @@ namespace UrlShortner
 
             if (shortToLong.ContainsValue(url))
             {
-                var test = shortToLong.FirstOrDefault(item => item.Value == url).Key;
-                return test;
+                return shortToLong.FirstOrDefault(item => item.Value == url).Key;
             }
-
-         
 
             // Regenerate Short URL if the generated short url key already exists
             do

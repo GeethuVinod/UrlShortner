@@ -17,15 +17,15 @@
   <ItemGroup>
     <None Remove="Helpers\" />
     <None Remove="UI\" />
+    <None Remove="UI\ViewModel\" />
+    <None Remove="UI\Pages\" />
+    <None Remove="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helpers\" />
     <Folder Include="UI\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="UI\MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
+    <Folder Include="UI\ViewModels\" />
+    <Folder Include="UI\Pages\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>

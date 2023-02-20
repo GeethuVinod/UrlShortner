@@ -6,21 +6,16 @@
 
     <StackLayout Padding="5,10">
 
-
         <Label Text="Enter the URL"/>
         <Entry Placeholder="https://www.example.com" Text="{Binding LongURL}" />
 
-         <Button Margin="0,10,0,0" Command="{Binding ExecuteShortenURLCommand}" Text="GO" />
-
+        <Button Margin="0,10,0,0" Command="{Binding ExecuteShortenURLCommand}" Text="GO" />
 
         <Frame HasShadow="False" BackgroundColor="{StaticResource DimBackgroundColor}" HeightRequest="40" HorizontalOptions="FillAndExpand">
-               <Label HorizontalOptions="Center" Text="{Binding ShortURL}" />
+            <Label HorizontalOptions="Center" Text="{Binding ShortURL}" />
         </Frame>
-      
 
-         <Button Margin="0,10,0,0" Command="{Binding ExecuteUserSearchHistoryCommand}"  Text="VIEW SEARCH HISTORY"/>
-
-       
+        <Button Margin="0,10,0,0" Command="{Binding ExecuteUserSearchHistoryCommand}"  Text="VIEW SEARCH HISTORY"/>
 
     </StackLayout>
 
