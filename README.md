@@ -4,6 +4,5 @@ This is a mobile app that allows users to shorten URLs using the TinyURL algorit
 Features:
 
 - Shorten long URLs using the TinyURL algorithm
-- Get the long URLs from the short URL
 - View a list of previously shortened URLs
 
