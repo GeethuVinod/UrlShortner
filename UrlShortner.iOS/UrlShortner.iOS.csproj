@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7E6D2302-CD67-4E73-9105-B93BC289E065}</ProjectGuid>
+    <ProjectGuid>{70155F46-F0B0-437F-824D-E62354AB4D1F}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>URLShortnerApp.iOS</RootNamespace>
+    <RootNamespace>UrlShortner.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>URLShortnerApp.iOS</AssemblyName>
+    <AssemblyName>UrlShortner.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>
@@ -128,9 +128,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\URLShortnerApp\URLShortnerApp.csproj">
-      <Project>{FAAD37E0-AC61-4821-8002-921DC4C07AA3}</Project>
-      <Name>URLShortnerApp</Name>
+    <ProjectReference Include="..\UrlShortner\UrlShortner.csproj">
+      <Project>{42CED123-CAD8-486D-A8B5-BCAB29DFAB46}</Project>
+      <Name>UrlShortner</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

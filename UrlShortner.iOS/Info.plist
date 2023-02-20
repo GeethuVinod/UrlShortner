@@ -23,15 +23,15 @@
     <key>MinimumOSVersion</key>
     <string>8.0</string>
     <key>CFBundleDisplayName</key>
-    <string>URLShortnerApp</string>
+    <string>UrlShortner</string>
     <key>CFBundleIdentifier</key>
-    <string>com.companyname.URLShortnerApp</string>
+    <string>com.companyname.UrlShortner</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen</string>
     <key>CFBundleName</key>
-    <string>URLShortnerApp</string>
+    <string>UrlShortner</string>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
 </dict>

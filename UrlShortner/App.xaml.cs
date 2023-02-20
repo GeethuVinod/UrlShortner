@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace URLShortnerApp
+namespace UrlShortner
 {
     public partial class App : Application
     {
@@ -10,7 +10,7 @@ namespace URLShortnerApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

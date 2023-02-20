@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace URLShortnerApp.iOS
+namespace UrlShortner.iOS
 {
     public class Application
     {

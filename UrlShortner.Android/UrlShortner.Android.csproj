@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0DF8BC3-0374-4139-975C-6B7CECDFA569}</ProjectGuid>
+    <ProjectGuid>{69A369D9-2114-4A49-A5BE-1FB28A01D0BD}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>URLShortnerApp.Droid</RootNamespace>
-    <AssemblyName>URLShortnerApp.Android</AssemblyName>
+    <RootNamespace>UrlShortner.Droid</RootNamespace>
+    <AssemblyName>UrlShortner.Android</AssemblyName>
     <Deterministic>True</Deterministic>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -86,9 +86,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\URLShortnerApp\URLShortnerApp.csproj">
-      <Project>{FAAD37E0-AC61-4821-8002-921DC4C07AA3}</Project>
-      <Name>URLShortnerApp</Name>
+    <ProjectReference Include="..\UrlShortner\UrlShortner.csproj">
+      <Project>{42CED123-CAD8-486D-A8B5-BCAB29DFAB46}</Project>
+      <Name>UrlShortner</Name>
     </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
