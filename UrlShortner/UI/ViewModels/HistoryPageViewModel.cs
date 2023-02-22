@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
+using UrlShortner.Helpers;
 
 namespace UrlShortner.UI
 {
@@ -18,15 +17,15 @@ namespace UrlShortner.UI
                 _uRLDetailList = value;
             }
         }
+
         public HistoryViewModel()
         {
             GetUserHistory();
         }
 
-
         public void GetUserHistory()
         {
-            URLDetailList = UrlHelper.GetUserSearchHistory();
+            URLDetailList = UrlHelperBase62.GetUserSearchHistory();
         }
     }
 }

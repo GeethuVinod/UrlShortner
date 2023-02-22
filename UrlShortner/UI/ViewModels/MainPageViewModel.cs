@@ -1,6 +1,6 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Windows.Input;
+using UrlShortner.Helpers;
 using Xamarin.Forms;
 
 namespace UrlShortner.UI
@@ -41,13 +41,14 @@ namespace UrlShortner.UI
         private void GetShortenURL()
         {
             bool isUri = Uri.IsWellFormedUriString(LongURL, UriKind.RelativeOrAbsolute);
+
             if(!isUri)
             {
-                Application.Current.MainPage.DisplayAlert("Error","Please enyter a valid URL", "OK");
+                Application.Current.MainPage.DisplayAlert("Error","Please enter a valid URL", "OK");
                 return;
             }
-            ShortURL = UrlHelper.GetShortenedUrl(LongURL);
-            
+
+            ShortURL = UrlHelperBase62.GetShortenedUrl(LongURL);
         }
 
         private void GetUserHistory()
